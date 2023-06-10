@@ -43,9 +43,10 @@ const About = () => {
         >
           <Image 
           className="rounded-xl"
-          src="/assets/about.jpg"
-          width="600" 
-          height="800" 
+          src="/assets/aboutMe.jpg"
+          width="700" 
+          height="800"
+          style={{ objectFit: "cover"}}
           alt="/"
           />
         </div>

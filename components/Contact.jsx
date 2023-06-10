@@ -1,3 +1,5 @@
+
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -7,6 +9,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
+  
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -14,10 +17,10 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid grid-cols-5 gap-8">
+        <div className="grid grid-cols-6 gap-8">
           {/**left */}
 
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-6 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <Image
@@ -28,7 +31,7 @@ const Contact = () => {
                   alt="/"
                 />
               </div>
-              <div>
+              <div className="pt-8">
                 <h2 className="py-4">Geoffrey Paul</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
@@ -37,8 +40,8 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8 font-semibold">Connect With Me</p>
-                <div className="flex items-center justify-between py-4">
+                <p className="uppercase pt-8 pb-4 text-[#5651e5] font-semibold">Connect With Me</p>
+                <div className="flex items-center justify-between py-4 max-w-[330px]">
                   <a
                    href="https://www.linkedin.com/in/geoffrey-paul-b44751174"
                    target="_blank"
@@ -53,12 +56,12 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6  cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                   </a>
                   <Link href="/#contact">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6  cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                   </Link>
@@ -66,7 +69,7 @@ const Contact = () => {
                     href="/assets/Geoffrey_Paul_Resume.pdf"
                     target="_blank"
                     >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6  cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonFill />
                   </div>
                   </a>
@@ -76,7 +79,7 @@ const Contact = () => {
           </div>
 
           {/** right*/}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-6 lg:col-span-4 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
