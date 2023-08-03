@@ -17,7 +17,7 @@ const About = () => {
             <span className="text-[#5651e5]"> frontend engineer</span> of 22
             years old. I&apos;ve spent the last five years working as a professional
             beat maker in music production. I&apos;ve always enjoyed technology and
-            dealing with computers. In 2020, I began working with HTML and CSS.
+            dealing with computers. In 2022, I began working with HTML and CSS.
           </p>
           <p className="py-2 text-gray-700">
             I was immediately drawn to study more after becoming amazed with how
